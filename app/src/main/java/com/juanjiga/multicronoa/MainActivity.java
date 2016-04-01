@@ -1,16 +1,15 @@
 package com.juanjiga.multicronoa;
 
-        import android.content.Intent;
-        import android.content.pm.ActivityInfo;
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.Toast;
+import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
-    //Button botonInicio;
+    Button botonInicio;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(nueva);
             }
         });
-
         Toast.makeText(getBaseContext(),"Toca la pantalla para empezar...", Toast.LENGTH_SHORT).show();
     }
-
 }
