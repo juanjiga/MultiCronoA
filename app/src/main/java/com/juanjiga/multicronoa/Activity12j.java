@@ -105,11 +105,11 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
         botonContinuar.setOnClickListener(this);
 
         Toast mensajito = Toast.makeText(getBaseContext(),
-                "...   Selecciona los jugadores titulares y pulsa              Â¡Â¡ EMPEZAR !!                 ... ",
+                "...   Selecciona los jugadores titulares y pulsa              ¡¡ EMPEZAR !!                 ... ",
                 Toast.LENGTH_LONG);
         mensajito.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         mensajito.show();
-
+//
         PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
         wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "cronOculto");
         wakeLock.setReferenceCounted(false);
@@ -289,10 +289,10 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         switch (keyCode) {
             case KeyEvent.KEYCODE_BACK:
-                builder.setTitle("Â¡ AtenciÃ³n !");
-                builder.setMessage("Â¿ Reiniciar cronometros ?");
+                builder.setTitle("¡ Atención !");
+                builder.setMessage("¿ Reiniciar cronometros ?");
                 builder.setCancelable(true);
-                builder.setPositiveButton("SÃ­", new DialogInterface.OnClickListener() {
+                builder.setPositiveButton("Sí", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface builder, int id) {
                         wakeLock.release();
                         System.exit(RESULT_OK);
