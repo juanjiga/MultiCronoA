@@ -307,7 +307,6 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
                 break;
         }
         return super.onKeyDown(keyCode, event);
-
     }
 }
 
