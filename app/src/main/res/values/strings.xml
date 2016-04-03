@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">MultiCrono Academia</string>
-    <string name="reloj_a_cero">- 00:00 -</string>
+    <string name="reloj_a_cero">- xx:xx -</string>
 </resources>
