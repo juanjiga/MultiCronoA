@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(nueva);
             }
         });
-        Toast.makeText(getBaseContext(),"Toca lA pantalla para empezar...", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getBaseContext(),"Toca la pantalla para empezar...", Toast.LENGTH_SHORT).show();
     }
 }
