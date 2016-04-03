@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MultiCronoA.iml" filepath="$PROJECT_DIR$/MultiCronoA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiCronoAs.iml" filepath="$PROJECT_DIR$/MultiCronoAs.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
