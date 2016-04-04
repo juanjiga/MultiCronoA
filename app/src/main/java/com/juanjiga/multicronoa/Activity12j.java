@@ -23,12 +23,10 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
 
     static Reloj[] relojes = new Reloj[13];
     static String[] relojeS = new String[13];
-
     int segundosTotales;
     boolean contando;
     Timer tiempo;
     WakeLock wakeLock;
-    
     Button botonTiempo;
     Button boton1, boton2, boton3, boton4;
     Button boton5, boton6, boton7, boton8;
@@ -198,13 +196,11 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
                 break;
         }
     }
-
     public void cambiaOnOff(int i) {
         if (relojes[i].getOnOff())
             relojes[i].setOff();
         else relojes[i].setOn();
     }
-
     public void preparaBotones(){
         boton1.setBackgroundColor(Color.parseColor(relojes[1].getColor()));
         boton1.setTextColor(Color.parseColor(relojes[1].getColorNumero()));
