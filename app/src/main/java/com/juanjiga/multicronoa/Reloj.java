@@ -8,6 +8,7 @@ public class Reloj {
     private boolean onoff;
     private String color;
     private String colorNumero;
+    private int segundosHoy;
 
     Reloj (){
         minutos = 0;
