@@ -23,10 +23,12 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
 
     static Reloj[] relojes = new Reloj[13];
     static String[] relojeS = new String[13];
+
     int segundosTotales;
     boolean contando;
     Timer tiempo;
     WakeLock wakeLock;
+    
     Button botonTiempo;
     Button boton1, boton2, boton3, boton4;
     Button boton5, boton6, boton7, boton8;
