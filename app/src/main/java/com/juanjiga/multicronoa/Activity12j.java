@@ -227,7 +227,6 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
         boton12.setBackgroundColor(Color.parseColor(relojes[12].getColor()));
         boton12.setTextColor(Color.parseColor(relojes[12].getColorNumero()));
     }
-
     public void textoTiempoTotal(String ahora) {
         if (relojes[0].getMinutos() < 10 && relojes[0].getSegundos() < 10)
             relojeS[0] = ahora + " 0" + relojes[0].getMinutos() + ":0" + relojes[0].getSegundos();
@@ -238,7 +237,6 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
         else
             relojeS[0] = ahora + relojes[0].getMinutos() + ":" + relojes[0].getSegundos();
     }
-
     public void actualizaTiempo() {
         if (contando) {
             segundosTotales++;
@@ -273,7 +271,6 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
         boton11.setText(relojeS[11]);
         boton12.setText(relojeS[12]);
     }
-
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         switch (keyCode) {
