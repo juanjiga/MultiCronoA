@@ -1,5 +1,7 @@
 package com.juanjiga.multicronoa;
 
+//Activity para 12 jugadores
+
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
