@@ -1,5 +1,5 @@
 package com.juanjiga.multicronoa;
-//holaaa
+//holaaa que pasaa
 
 public class Reloj {
     private int minutos;
