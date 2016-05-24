@@ -5,6 +5,7 @@ package com.juanjiga.multicronoa;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import java.util.TimerTask;
 import java.util.Timer;
@@ -55,7 +56,14 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main12j);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setIcon(R.mipmap.ic_launcher);
+
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         segundosTotales = 0;
         contando = false;
         for (int i = 0; i < 13; i++) {
