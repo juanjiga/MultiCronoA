@@ -285,7 +285,7 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         switch (keyCode) {
             case KeyEvent.KEYCODE_BACK:
-                builder.setTitle("¡ Atención !");
+                builder.setTitle("¡ ATENCIÓN !");
                 builder.setMessage("¿ Reiniciar cronometros ?");
                 builder.setCancelable(true);
                 builder.setPositiveButton("Sí", new DialogInterface.OnClickListener() {
