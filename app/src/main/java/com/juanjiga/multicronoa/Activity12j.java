@@ -106,7 +106,8 @@ public class Activity12j extends AppCompatActivity implements OnClickListener {
         botonContinuar.setOnClickListener(this);
 
         Toast mensajito = Toast.makeText(getBaseContext(),
-                "...   Selecciona los jugadores titulares y pulsa              ¡¡ EMPEZAR !!                 ... ",
+                "   Selecciona los jugadores titulares y pulsa                       " +
+                        " ¡¡ EMPEZAR !!           ... ",
                 Toast.LENGTH_LONG);
         mensajito.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         mensajito.show();
