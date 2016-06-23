@@ -1,5 +1,7 @@
 package com.juanjiga.multicronoa;
 
+//hola desde Taller Win8
+
 public class Reloj {
     private int minutos;
     private int segundos;
